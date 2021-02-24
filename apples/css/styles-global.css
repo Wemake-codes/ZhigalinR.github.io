@@ -127,10 +127,13 @@
 }
 
 .button-green-small {
-	display: inline-block;
-	vertical-align: middle;
-	font-size: 16px;
-	line-height: 36px;	
+	position: relative;
+	display: inline-flex;
+    align-items: center;	
+	justify-content: center;
+	font-size: 15px;
+	line-height: 14px;	
+	height: 36px;	
 	text-align: center;
 	background: none;
 	color: #0DB14B;
@@ -2161,7 +2164,7 @@ a.download-document {
 		font-size: 14px;
 		padding-left: 15px;
 		padding-right: 15px;
-		line-height: 34px;
+		height: 34px;
 	}
 	
 	.promo-wrapper {
